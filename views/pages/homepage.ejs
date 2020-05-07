@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/stylesheets/homepage.css">
+    <title>login</title>
+  </head>
+
+  <!-- <div id="ult"> -->
+    <body>
+      <div>
+      <div id=topBar>
+          <img id="logo" src="/stylesheets/logo.png">
+          <div id="input">
+              <input id="input"></input> 
+              <button id="search">search</button>
+          </div>
+          <img id="profile" src="/stylesheets/user.png">
+      </div>
+    
+
+    
+      <div class="center_wrapper" id="w1">
+        <div class="vt_wrapper" id="v_wrapper">
+          <video id="v1" poster="/stylesheets/video.png" controls>
+            <source src="https://www.youtube.com/watch?v=fYq5PXgSsbE">
+         </video>
+          <div class="description" id="large_description">
+            <div id="description_sub1">
+              <p id="video_heading">Learn about Coronavirus with Rion!</p>
+            </div>
+            <div id="description_sub2">
+                <button class="tags" id="covid">Covid19</button>
+                <button class="tags" id="animal">Animal</button>
+                <button class="tags" id="tag6">3-6yrs</button>
+            </div>
+            <div id="description_sub3">
+                <p>asfn jfnsngk werwrjoj rgmkld sndfjcnkc sdfs fdg cvcvfbd</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+     
+
+      
+      <div id="w2">
+        <div><p id="subtitle">Select topic</p></div>
+        <div class="center_wrapper" id="w2_sub">
+            <button class="tags" id="covid">covid</button>
+            <button class="tags" id="animal">animal</button>
+            <button class="tags" id="tag2">tag1</button>
+            <button class="tags" id="tag3">tag2</button>
+            <button class="tags" id="tag4">tag3</button>
+        </div>        
+        <div><p id="subtitle">Select age group</p></div>
+        <div class="center_wrapper" id="w2_sub">
+            <button class="tags" id="tag5">1-2yrs</button>
+            <button class="tags" id="tag6">3-6yrs</button>
+            <button class="tags" id="tag7">6-8yrs</button>
+            <button class="tags" id="tag8">8-10yrs</button>
+            <button class="tags" id="tag9">10-12yrs</button>
+        </div>
+      </div>
+
+
+      <div><p id="subtitle">Recommend videos</p><br><br></div>
+      <div class="wrapper" id="w3">  
+        <div class="center_wrapper"  id="w3_sub">
+          <video  poster="/stylesheets/thumbnail.jpg" controls>
+            <source src="">
+          </video>
+          <div class="description" id="small_description"></div>
+        </div> 
+      </div>
+
+   
+      <p id="subtitle">Activities to do together</p><br><br>
+      <div class="wrapper" id="activity_wrapper">
+           <div class="wrapper" id="activity_sub1"><img id="a1" src="/stylesheets/Group_66.png"></div> 
+           <div class="wrapper" id="activity_sub2"><video id="activity_sub2" poster="/stylesheets/thumbnail.jpg" controls></video>
+              <source src="">
+           </video></div>
+           <div class="wrapper" id="activity_sub2"> <video id="activity_sub2" poster="/stylesheets/thumbnail.jpg" controls></video>
+            <source src="">
+         </video></div>
+
+        </div>
+
+        
+
+  
+</div>
+    </body>
+    <script>
+        var test = document.getElementById("w3");
+        var i;
+        var clone;
+        for (i = 0; i < 5; i++) { 
+          test.appendChild(document.getElementById("w3_sub").cloneNode(true));
+        }
+
+      </script>
+
+   
+</html>

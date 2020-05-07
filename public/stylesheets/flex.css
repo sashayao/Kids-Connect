@@ -1,0 +1,32 @@
+.center_wrapper{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-content: center;
+    background-color: grey;
+    flex-grow: 1;
+}
+
+.f1{
+    min-width: 200px;
+    min-height: 200px;
+    flex-shrink: 1;
+    flex-grow:1;
+    background-color: antiquewhite;
+}
+
+.f2{
+    min-width: 200px;
+    min-height: 200px;
+    flex-shrink: 1;
+    flex-grow:1;
+    background-color: aliceblue;
+}
+
+.all_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: grey;
+}
