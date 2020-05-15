@@ -1,0 +1,94 @@
+
+
+.header-bar{
+    position: absolute;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(255, 196, 0);
+    width: 100%;
+    top: 0vh;
+    left: 0vh;
+    right: 0vh;
+
+}
+
+.header-element{
+    display:flex;
+    align-items: center;
+    flex: 2 1 1;
+    margin: 1vh;
+}
+
+.header-img{
+    max-height: 6vh;
+}
+
+.featured-wrapper{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(216, 205, 205);
+    flex: 2 1 1;
+    top: 10vh;
+}
+
+.featured-navagation{
+    display:flex;
+    justify-content: center;
+    min-width: 10vh;
+    max-width: 10vh;
+}
+li{
+    min-width: 30vh;
+    max-width: 60vh;
+    list-style-type: none;
+}
+
+.featured-video{
+    min-width: 50vh;
+    max-width: 50%;
+}
+
+.labels-element{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.tag{
+    background-color: white;
+    border-color: pink;
+    border-radius: 5px;
+    border-width: 2px;
+    height: 3vh;
+    width: 10vh;
+}
+
+.age-tag{
+    border-color: pink;
+}
+
+.category-tag{
+    border-color: rgb(83, 161, 230);
+}
+
+.tags-search-wrapper{
+    background-color: rgb(216, 205, 205);
+    display: block;
+    margin: 1.0em auto;
+    text-align: center;
+    display: inline;
+}
+
+.tags-wrapper{
+    background-color: orange;
+    display:flex;
+    flex-direction: column;
+
+    margin-top: 12vh;
+}

@@ -9,5 +9,7 @@ app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
-app.get('/', (req, res) => res.sendFile('home.html', {root : __dirname + '/public'}));
+app.get('/', (req, res) => {
+    res.render('pages/home')
+} )
 
